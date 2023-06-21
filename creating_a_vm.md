@@ -52,6 +52,35 @@ This generates a *really* long string that needs to be entered into Azure.
 
 ## Azure
 
+### Creating an SSH Key in Azure
+
 Navigate to *SSH Keys* in Azure and click *Create*.
 
 It's best practice to give the key the same name as on the local computer.
+
+![Azure_SSH](/azure_ssh_1.png)
+
+The *really* long string needs to be entered into the *Upload key* box. 
+
+NB. The key starts with `ssh-rsa` and ends with the email address.
+
+Then navigate to *Tags* and enter *Owner* as Name and *Deanne* as Value, and select *Review + create*.
+
+When it's created, all SSH keys in the resource group will be displayed.
+
+### Creating the VM
+
+Navigate to *Virtual machines* in Azure, and select *Create*. Enter the following info:
+
+| Column 1 | Column 2 | 
+| -------- | -------- | 
+| Resource group | tech241 |  
+| Virtual machine name | tech241-deanne-man-app | 
+|Region | (Europe) UK South |
+Security type | Standard
+
+
+
+
+
+
