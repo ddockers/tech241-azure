@@ -1,5 +1,7 @@
 # Creating a Virtual Machine (VM)
 
+![VM_diagram](/my_vm_diagram.png)
+
 We first need be able to select the SSH key. The key needs to be on our local machine for us to SSH in.
 
 We create the private key first, and then put the padlock (public key) onto Azure.
@@ -80,7 +82,9 @@ Navigate to *Virtual machines* in Azure, and select *Create*. Enter the followin
 Security type | Standard
 
 
+## Connect to VM
+On azure enter ~/.ssh/tech241-deanne-az-key
 
-
+Enter this into GitBash
 
 
