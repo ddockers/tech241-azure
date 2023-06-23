@@ -19,3 +19,25 @@ VMs can be run on a physical machine.
 
 ## What determines how many can run?
 
+There are many factors that can determine how many VMs can run, including:
+- CPU capability
+- Data storage
+- RAM
+- Network Interface Controller (NIC)
+- Virtualisation software version
+
+## What does a virtual machine include?
+
+It has a CPU, memory, disks to store your files, and can connect to the internet if needed. 
+
+Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are all running on the same host.
+
+## What software is required to orchestrate/run the virtual machines?
+
+Hypervisors are used to run VMs. There are different sorts, like Hyper-v and VMware.
+
+## What is the importance of an image when creating an VM?
+
+The image is important as it is used to launch the VM in the cloud. 
+
+It contains an operating system, boot loader and root file system.
