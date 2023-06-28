@@ -74,12 +74,19 @@ When it's created, all SSH keys in the resource group will be displayed.
 
 Navigate to *Virtual machines* in Azure, and select *Create*. Enter the following info:
 
+
+
 | Column 1 | Column 2 | 
 | -------- | -------- | 
 | Resource group | tech241 |  
 | Virtual machine name | tech241-deanne-man-app | 
 |Region | (Europe) UK South |
 Security type | Standard
+
+The subscription is already selected. The resource group (the container for everything) is in the dropdown.
+
+We try to label it clearly so that we know exactly what it is. And we'll use the normal naming convention.
+
 
 
 ## Connect to VM
