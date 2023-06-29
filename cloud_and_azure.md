@@ -49,8 +49,13 @@ Which cloud provider is the best? Why?
 ## Azure
 
 ### What is Azure? 
-See Trello card
-Management groups - allows you to manage subscriptions, set policies, enforces compliance
+There are four levels of organisation:
+![Levels](scope-levels.png)
+
+- Management groups - allows you to manage subscriptions, set policies, enforces compliance
+- Subscriptions
+- Resource groups - this is a container that groups multiple resources together so they can be managed as a single entity
+- Tags - these are custom labels that can be set so that certain VMs can be grouped together
 
 ### CapEx vs OPEx
 Capital Expenditure is paid up front when on prem
@@ -58,8 +63,6 @@ Operational Expenditure is spread out over time (monthly)
 CapEx mostly on prem
 OpEx mostly cloud
 
-Tags are key:value pairs
-e.g. Team: Sales 1
 
 ARM - acute resource manager. It is the API that manages Azure.
 
