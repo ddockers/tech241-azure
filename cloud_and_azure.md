@@ -50,7 +50,7 @@ Which cloud provider is the best? Why?
 
 ### What is Azure? 
 There are four levels of organisation:
-![Levels](scope-levels.png)
+![Levels](https://imgur.com/WqeUUSC)
 
 - Management groups - allows you to manage subscriptions, set policies, enforces compliance
 - Subscriptions
